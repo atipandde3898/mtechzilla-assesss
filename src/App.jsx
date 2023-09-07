@@ -25,6 +25,7 @@ function App() {
      
    <Router>
       <Routes>
+        <Route path="/" element={<LoginScreen/>}/>
       <Route path="/login" element={<LoginScreen/>}/>
       <Route path="/Timer" element={<Timer/>}/>
     </Routes>
